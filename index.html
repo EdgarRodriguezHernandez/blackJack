@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlackJack</title>
+
+    <!--bootstrap, se ve mejor-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    
+    <header class="title">
+        Black Jack
+    </header>
+
+    <div class="row mt-2"><!--Clase mt personalizada de bootstrap mas o menos margen top 20px-->
+
+        <div id="buttons" class="col text-center"><!--Todo lo que ponga estara centrado-->
+
+            <!--Buttons (clases de bootstrap)-->
+            <button id="btnNew" class="btn btn-new">New game</button>
+            <button id="btnGive" class="btn btn-primary">Card</button>
+            <button id="btnStop" class="btn btn-danger">Stop</button>
+
+        </div>
+
+    </div>
+
+    <div class="row container"><!--Una línea-->
+        <div class="col"><!--Una línea-->
+
+            <h1>Edgar <small> 0</small></h1>
+
+            <div id="player-cards"><!--Images player cards-->
+
+                <!-- <img class="bj_card" src="cards/3C.png"> -->
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="row container mt-2"><!--Agregamos algo de margen-->
+        <div class="col"><!--Una línea-->
+
+            <h1>House <small> 0</small></h1>
+
+            <div id="pc-cards"><!--Images computer cards-->
+
+                <!-- <img class="bj-card" src="cards/6H.png"> -->
+
+            </div>
+
+        </div>
+        
+    </div>
+
+    <footer>Edgar has no luck with cards. This is for him to practice.</footer>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.13.1/underscore-min.js" name="underscore"></script>
+
+    <script type="text/javascript" src="assets/js/game.js"></script>
+
+</body>
+</html>

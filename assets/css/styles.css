@@ -1,0 +1,38 @@
+
+
+html, body{
+    margin: 0px;
+    background-color: #0f4441;
+    color: white;
+}
+
+.title{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    font-size: 25px;
+}
+
+.btn-new{
+    background: radial-gradient( rgb(255, 0, 0) 10%, rgb(66, 0, 110));
+    color: rgb(230, 255, 6);
+}
+
+.bj-card{
+    position: relative;
+    width: 150px;/*Tamaño bueno para la carta*/
+    left: 100px;/*Para la derecha*/
+    margin-left: -75px;
+}
+
+#pc-cards, #player-cards{
+    height: 240px;
+}
+
+footer{
+    text-align: center;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: linear-gradient(rgba(255, 0, 0, 0.53), #0f4441);
+}
